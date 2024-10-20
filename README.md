@@ -31,9 +31,118 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 ## PROGRAM:
+made by: sudharsan s
+24009664
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Cover</title>
+    <style>
+        body {
+            background-color: #e0e0e0; /* Light gray background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            border: 10px solid #2980b9; /* Blue border around the body */
+            padding: 20px; /* Padding around the content */
+            box-sizing: border-box; /* Ensure padding is included in width and height */
+        }
+
+        .book-cover {
+            background-color:black;
+            border: 10px solid white ;
+            border-radius: 15px;
+            box-shadow: 0 20px 80px rgba(2, 4, 6, 8);
+            width: 320px;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .book-header {
+            font-size: px;
+            font-weight: bold;
+            color: #2c3e50;
+            background: linear-gradient(45deg, #2980b9, #6dd5ed);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin: -10px -20px 20px -20px;
+            padding: 10px 0;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .book-title {
+            font-size: 22px;
+            font-weight: bold;
+            color: rgb(255, 0, 153);
+            margin: 10px 0;
+        }
+
+        .book-author {
+            font-size: 18px;
+            color:white;
+            margin: 10px 0 20px 0;
+        }
+
+        .book-image img {
+            max-width: 100%;
+            border-radius: 18px;
+            border: 10px solid skyblue (255, 0, 0, 0); /* Yellow border around the image */
+            transition: transform 0.3s;
+        }
+
+        .book-image img:hover {
+            transform: scale(1.05);
+        }
+
+        .book-description {
+            font-size: 14px;
+            color:white;
+            margin-top: 15px;
+            line-height: 1.5;
+        }
+
+        .footer {
+            font-size: 16px;
+            color: white;
+            position: absolute;
+            bottom: 16px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #2980b9; /* Background for footer */
+            padding: 5px 10px; /* Padding for better appearance */
+            border-radius: 5px; /* Rounded corners for footer */
+        }
+    </style>
+</head>
+<body>
+    <div class="book-cover">
+        <div class="book-header">EXPERT INSIGHT</div>
+        <div class="book-title">Responsive Web Design With HTML5 and CSS</div>
+        <div class="book-image">
+            <img src="C:\Users\sudharshan\Downloads\book cover.jpg" alt="Book Cover Image">
+        </div>
+        <div class="book-description">
+            <p>Develop future-proof responsive websites using the latest HTML5 and CSS techniques.</p>
+        </div>
+        <div class="book-author">Ben Frain</div>
+        <div class="footer">© 2024 Publishing House</div>
+    </div>
+</body>
+</html>
+
 
 
 ## OUTPUT:
+
+![Screenshot 2024-10-20 185035](https://github.com/user-attachments/assets/07933d7f-7399-44c2-9977-39ba358b3f03)
+
 
 
 ## RESULT:
